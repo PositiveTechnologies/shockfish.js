@@ -1,0 +1,16 @@
+{   
+    "protectors": ["xssprotector"],
+    "xssprotector": {
+        "mode": {
+            "block": true,
+            "report": true
+        },
+        "sanitizedSources": ["properties"],
+        "sanitizedProperties": ["location.pathname", "location.search", "location.hash"],
+        "sanitizeParametersNames": false,
+        "sanitizedParameters": ["a", "b"],
+        "unsanitizedParameters": ["c", "d"],
+        "listeners": ["onhashchange"],
+        "contexts": ["js", "attr", "dom"]
+    }
+}

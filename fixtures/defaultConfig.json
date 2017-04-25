@@ -1,0 +1,15 @@
+{   
+    "protectors": ["xssprotector"],
+    "xssprotector": {
+        "mode": {
+            "block": true,
+            "report": true
+        },
+        "debug": true,
+        "sanitizedSources": ["properties"],
+        "sanitizedProperties": ["location.pathname", "location.search", "location.hash"],
+        "sanitizeParametersNames": true,
+        "listeners": ["onhashchange"],
+        "contexts": ["url", "js", "attr", "dom"]
+    }
+}
