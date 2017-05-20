@@ -7,6 +7,8 @@ Its main goals are to demonstrate known application security methods and algorit
 help web developers and security engineers better understand the processes of web applications firewalling,
 and illustrate some fundomental problems of this technology.
 
+`Shockfish.js` is created for demonstration purposes only and must not be used in production.
+
 ## Installation
 
 ```
