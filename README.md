@@ -1,7 +1,7 @@
 # Shockfish.js
 
 `Shockfish.js` is a client-side web application firewall (WAF).
-It is a JavaScript module of experimental [Shockfish](https://github.com/PositiveTechnologies/shockhfish) web application firewall.
+It is a JavaScript module of experimental [Shockfish](https://github.com/PositiveTechnologies/shockfish) web application firewall.
 
 Its main goals are to demonstrate known application security methods and algorithms implemented on a client-side,
 help web developers and security engineers better understand the processes of web applications firewalling,
@@ -23,7 +23,7 @@ When all tests are passed minified and obfuscated version of `shockfish.js` will
 ### Protectors
 
 At this time `Shockfish.js` protects against DOM-based XSS attacks only.
-It parses `location.hash` and `location.search`, and checks them using different algorithms.
+It parses `location.hash` and `location.search`, and checks them using different [algorithms](http://www.slideshare.net/DenisKolegov/wafjs-how-to-protect-web-applications-using-javascript).
 
 It consists of the following components:
 
